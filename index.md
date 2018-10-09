@@ -53,9 +53,9 @@ Permutation, increment/decrement and logarithmic operations, on the value stored
 #### Estimation with 1,000,000 processes:
 
 
-|           | send-receive with 1KB buffer    | ACP with IB | ACP with Tofu | ACP with Ether |
-| --------- | ------------------------------- | ----------- | ------------- | -------------- |
-| Memory    |                             10GB|       370MB |        67MB   |      34MB      |
+|           | send-receive with 1KB buffer    | ACP on InfiniBand | ACP on Tofu/Tofu2 | ACP on Ethernet |
+| --------- | ------------------------------- | ----------------- | ----------------- | --------------- |
+| Memory    |                            10GB |             370MB |            67MB   |       34MB      |
 
 
 ![Estimated Memory Consumption]({{ site.baseurl }}/images/5.png)
