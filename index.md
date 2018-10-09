@@ -27,28 +27,30 @@ ACP supports a communication model that transfers data via "Global Memory", that
 ### Basic Layer: Global Memory Access Operations of ACP
 
 #### Copy operation
+
 Copy data from one place in the Global Memory to another. Internally, the library performs appropriate communication operations for each copy operation so that the data is transferred between corresponding registered regions of local memories.
 
 #### Atomic operation
+
 Permutation, increment/decrement and logarithmic operations, on the value stored in the specified place of the Global Memory.
 
 ### Fundamental Performance of ACP
 
-* Local to Remote
+#### Local to Remote
 
 ![Latency of Local to Remote]({{ site.baseurl }}/images/2.png)
 
-* Remote to Local
+#### Remote to Local
 
 ![Latency of Remote to Local]({{ site.baseurl }}/images/3.png)
 
-* Remote to Remote
+#### Remote to Remote
 
 ![Latency of Remote-to-Remote]({{ site.baseurl }}/images/4.png)
 
 ### Estimated Memory Consumption of ACP
 
-* Estimation with 1,000,000 processes:
+#### Estimation with 1,000,000 processes:
 
 
 |           | send-receive with 1KB buffer    | ACP with IB | ACP with Tofu | ACP with Ether |
@@ -60,13 +62,13 @@ Permutation, increment/decrement and logarithmic operations, on the value stored
 
 ### Middle Layer: Additional Operations of ACP
 
-* Communication Library
+#### Communication Library
 
 Explicit creation / free of channels among processes that support one-directional send / receive.
 
 ![Communication Library]({{ site.baseurl }}/images/6.png)
 
-* Data Library
+#### Data Library
 
 Create / modify / destruct data structures, such as vector, list, deque map and set, on the Global Memory.
 
