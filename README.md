@@ -1,10 +1,21 @@
-# [ACP](https://github.com/project-ace/ACP)
+# ACP
+
+## Team Description
+
+- Pl: Takeshi Nanri (Kyushu University)
+- co-Pl: Shinji Sumimoto (Fujitsu Ltd.) and Hidetomo Shibamura (ISIT)
+- Research Period: 2011 - 2017
+- Research website: [http://ace-project.kyushu-u.ac.jp/](http://ace-project.kyushu-u.ac.jp/)
+
+## Published Software
+
+- [Advanced Communication Primitives (ACP) Library](https://github.com/project-ace/ACP)
+
+#
+
+## Advanced Communication Primitives (ACP) Library
 
 Advanced Communication Primitives (ACP) Library is designed to enable applications with sufficient inherent parallelism to achieve high scalability up to exa-scale computing systems, where the number of processes is expected to be more than a million.
-
-Please find the source codes of ACP at:
-
-[https://github.com/project-ace/ACP](https://github.com/project-ace/ACP)
 
 As the performance of environments for high-performance computing (HPC) is approaching from peta to exa, the number of cores in one node is increasing, while the amount of memory per node is expected to remain almost the same. Therefore, reducing memory consumption has become an important issue for achieving sustained scalability toward exa-scale computers.
 Especially, communication middleware on those environments must be carefully designed to achieve high memory efficiency. There is always a trade-off between the memory consumption and the performance of communication. To avoid conflicts of resources and achieve high performance, sufficient amount of buffers should be allocated. Therefore, appropriate control of the allocation and deallocation of buffers is a key to enable memory-efficient communications.
