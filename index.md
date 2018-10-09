@@ -15,7 +15,9 @@ title: Development of Scalable Communication Library with Technologies for Memor
 
 ---
 
-# Advanced Communication Primitives (ACP) Library
+# Scalable Communication Library
+
+## Advanced Communication Primitives (ACP) Library
 
 Advanced Communication Primitives (ACP) Library is designed to enable applications with sufficient inherent parallelism to achieve high scalability up to exa-scale computing systems, where the number of processes is expected to be more than a million.
 
