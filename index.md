@@ -23,7 +23,7 @@ title: Development of Scalable Communication Library with Technologies for Memor
 
 ACP supports a communication model that transfers data via "Global Memory", that is a virtual memory space managed by the library. Each process can expose a region of its local memory to other processes by registering that region to the global memory.
 
-![Global and Local Memory of ACP]({{ site.baseurl }}/images/1.png =100x)
+![Global and Local Memory of ACP]({{ site.baseurl }}/images/1.png =x100)
 
 ### Basic Layer: Global Memory Access Operations of ACP
 
