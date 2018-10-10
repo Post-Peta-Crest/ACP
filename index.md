@@ -7,6 +7,7 @@ title: Development of Scalable Communication Library with Technologies for Memor
 * Pl: Takeshi Nanri (Kyushu University)
 * co-Pl: Shinji Sumimoto (Fujitsu Ltd.) and Hidetomo Shibamura (ISIT)
 * Research Period: 2011 - 2017
+* [Research highlights in pdf]({{ site.baseurl }}/images/crest-nanri.pdf)
 * Research website: [http://ace-project.kyushu-u.ac.jp/](http://ace-project.kyushu-u.ac.jp/)
 
 # Published Software
