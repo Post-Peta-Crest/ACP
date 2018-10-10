@@ -23,7 +23,7 @@ title: Development of Scalable Communication Library with Technologies for Memor
 
 ACP supports a communication model that transfers data via "Global Memory", that is a virtual memory space managed by the library. Each process can expose a region of its local memory to other processes by registering that region to the global memory.
 
-<img src="images/1.png" width="150">
+<img src="images/1.png" width="500">
 
 ### Basic Layer: Global Memory Access Operations of ACP
 
@@ -39,15 +39,15 @@ Permutation, increment/decrement and logarithmic operations, on the value stored
 
 #### Local to Remote
 
-![Latency of Local to Remote]({{ site.baseurl }}/images/2.png)
+<img src="images/2.png" width="500">
 
 #### Remote to Local
 
-![Latency of Remote to Local]({{ site.baseurl }}/images/3.png)
+<img src="images/3.png" width="500">
 
 #### Remote to Remote
 
-![Latency of Remote-to-Remote]({{ site.baseurl }}/images/4.png)
+<img src="images/4.png" width="500">
 
 ### Estimated Memory Consumption of ACP
 
@@ -59,7 +59,7 @@ Permutation, increment/decrement and logarithmic operations, on the value stored
 | Memory    |                            10GB |             370MB |            67MB   |       34MB      |
 
 
-![Estimated Memory Consumption]({{ site.baseurl }}/images/5.png)
+<img src="images/5.png" width="500">
 
 ### Middle Layer: Additional Operations of ACP
 
@@ -67,22 +67,22 @@ Permutation, increment/decrement and logarithmic operations, on the value stored
 
 Explicit creation / free of channels among processes that support one-directional send / receive.
 
-![Communication Library]({{ site.baseurl }}/images/6.png)
+<img src="images/6.png" width="500">
 
 #### Data Library
 
 Create / modify / destruct data structures, such as vector, list, deque map and set, on the Global Memory.
 
-![Data Library]({{ site.baseurl }}/images/7.png)
+<img src="images/7.png" width="500">
 
 ### ACP + MPI
 
 Existing MPI programs can call ACP. Also, ACP can be used to connect multiple MPI programs to reduce memory consumption by communicators of MPI
 
-![ACP + MPI]({{ site.baseurl }}/images/8.png)
+<img src="images/8.png" width="500">
 
 ### Network Simulator NSIM-ACE
 
 Study behavior of one-sided communications performed with ACP. Packets are generated automatically, and simulated according to the configuration of networks and the pseudo code.
 
-![NSIM-ACE]({{ site.baseurl }}/images/9.png)
+<img src="images/9.png" width="500">
